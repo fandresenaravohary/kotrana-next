@@ -1,5 +1,7 @@
+import CategoryCards from "./_components/category-cards"
+
 const Page = () => {
-    return <>categories</>;
+    return <CategoryCards />;
 }
 
 export default Page;
