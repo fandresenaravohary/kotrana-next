@@ -46,3 +46,5 @@ const ControlledInput = <T extends FieldValues>({
     </div>
   );
 };
+
+export { ControlledInput };
