@@ -1,3 +1,5 @@
+"use client"
+
 import { ComponentProps } from "react";
 import { Controller, FieldValues, Path, useFormContext } from "react-hook-form";
 import { Label } from "./label";

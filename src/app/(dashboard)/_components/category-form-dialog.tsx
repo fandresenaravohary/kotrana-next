@@ -1,3 +1,5 @@
+"use client"
+
 import { FormProvider, SubmitHandler, useForm } from "react-hook-form";
 import {
   categoryDefaultValues,
@@ -77,7 +79,7 @@ const CategoryFormDialog = ({ smallTrigger }: CategoryFormDialogProps) => {
 
   return (
     <Dialog open={categoryDialogOpen} onOpenChange={handleDialogOpenChange}>
-      <DialogTrigger>
+      <DialogTrigger asChild>
         {smallTrigger ? (
           <Button size={"icon"} variant="ghost" type="button">
             <Plus />
